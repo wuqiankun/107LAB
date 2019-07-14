@@ -1,0 +1,364 @@
+@charset "utf-8";
+section{
+    width:100%;
+    height:1530px;
+    background-color: #f5f6f0;
+    padding-top:25px;
+}
+section .middle_con{
+    width:1140px;
+    margin:0 auto;
+}
+section .middle_con .section1{
+    width:100%;
+    height:128px;
+}
+.middle_con  .title_m{
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    border-bottom:2px solid #1877b7;
+}
+.middle_con  .title_m a:nth-child(1){
+    font-size: 18px;
+    color:#000;
+    padding-left:5px;
+}
+.middle_con  .title_m .more{
+    float: right;
+    font-size: 12px;
+    color:gainsboro;
+}
+.middle_con  .title_m .more:hover{
+    color:gainsboro;
+}
+.middle_con .news_d{
+    width:100%;
+    height:80px;
+    line-height:80px;
+    padding:0 0 0 10px;
+}
+.middle_con .news_d .news_time{
+    font-size:20px;
+    color:#1877b7;
+    margin-left:10px;
+    vertical-align:middle;
+}
+.middle_con .news_d .back{
+    margin:0 20px;
+    vertical-align:middle;
+}
+.middle_con .news_d .qrcode{
+    float: right;
+    margin-top:6px;
+}
+.middle_con .news_d .common_style{
+    color:#000;
+    font-size:14px;
+    vertical-align:middle;
+}
+.middle_con .section1 a:hover{
+    color:#1877b7;
+}
+.middle_con .news_detail{
+    width:100%;
+    height:288px;
+}
+.news_detail > div{
+    float:left;
+}
+.middle_con .news_detail .news_left{
+    position: relative;
+    width:312px;
+    height:230px;
+    margin:19px 9px 0 10px;
+}
+.news_detail .news_left ul{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.news_detail .news_left ul li{
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    overflow: hidden;
+}
+.news_left ul li a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.news_left ul li img{
+    width:312px;
+    height:230px;
+    border-radius: 5px;
+    transition: transform 1s;
+}
+.news_left ul:hover img{
+    transform: scale(1.5);
+}
+.news_detail .news_left .sqare{
+    z-index: 12;
+    position: absolute;
+    bottom: 4px;
+    right:0;
+}
+.news_left .sqare span{
+    display: inline-block;
+    width:22px;
+    height:18px;
+    line-height: 18px;
+    text-align: center;
+    font-size:14px;
+    color:#fff;
+    background-color: #666;
+    cursor: pointer;
+    border-left:1px solid #fff;
+}
+.news_left .sqare span:hover{
+    background-color: #999;
+}
+.section2 .news_detail .news_left .spe_color{
+    background-color: red;
+}
+.section2 .news_detail .news_left .spe_color:hover{
+    background-color: red;
+}
+.middle_con .section2 a:hover{
+    color:#1877b7;
+}
+.news_detail .news_right{
+    width:800px;
+}
+.news_detail .news_right{
+    margin-top:8px;
+} 
+.news_detail .news_right ul li{
+    float: left;
+    width: 360px;
+    height:40px;
+    padding:10px;
+    margin:0 10px;
+    border-bottom:1px solid gainsboro;
+}
+.news_detail .news_right ul li a{
+    font-size: 14px;
+    color:#000;
+    white-space:pre-wrap;
+}
+.middle_con .section3{
+    height:225px;
+}
+.middle_con .same_sec .three_left{
+    float: left;
+    width:700px;
+}
+.same_sec .three_left .title_m{
+    width:700px;
+}
+.same_sec .three_left ul{
+    padding-left:10px;
+}
+.same_sec .three_left ul li{
+    width:100%;
+    height:42px;
+    line-height: 42px;
+}
+.same_sec .three_left li .lunwen{
+    vertical-align: middle;
+}
+.same_sec .three_left li .back{
+    margin:0 20px;
+    vertical-align: middle;
+}
+.same_sec .three_left li a{
+    font-size:14px;
+    color:#000;
+    vertical-align: middle;
+}
+.middle_con .same_sec a:hover{
+    color:#1877b7;
+}
+.same_sec .three_right{
+    float: left;
+    width:420px;
+    height:200px;
+    margin-left:18px;
+    margin-top:10px;
+}
+.same_sec .three_right > a{
+    display: block;
+    float: left;
+}
+.same_sec .three_right .right_left{
+    display:flex;
+    width:130px;
+    height:200px;
+    flex-flow:row wrap;
+	justify-content:center;
+	align-content:center;
+    background-color: #009999;
+    border-radius: 5px 0 0 5px;
+}
+.same_sec .three_right .right_img{
+    position: relative;
+}
+.same_sec .three_right .right_img p{
+    display: none;
+    position: absolute;
+    width:290px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    bottom: 4px;
+    left:0;
+    font-size:14px;
+    color:#fff;
+    background-color:rgba(0,0,0,0.5); 
+}
+.same_sec .three_right .right_img img{
+    border-radius: 0 5px 5px 0;
+}
+.middle_con .section4{
+    height:226px;
+}
+.section4 .four_left li span{
+    position: relative;
+    display: inline-block;
+    width:93px;
+    height:28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 15px;
+    color:#fff;
+    margin-right:28px;
+    background-color: #1877b7;
+}
+.same_sec .four_right .right_left{
+    background-color: #bf3b48;
+}
+.section4 .four_left li span:after{
+    content:"";
+    position: absolute;
+    right:-6px;
+    top:50%;
+    width: 0;
+    height: 0;
+    border:6px solid #f5f6f0;
+    border-right: 0;
+    border-left-color: #1877b7;
+    border-bottom-color:transparent;
+    border-top-color:transparent;
+    margin-top: -6px;
+}
+.middle_con .section5{
+    height:250px;
+}
+.section5 .five_left li span{
+    display: inline-block;
+    width:100px;
+    font-size:14px;
+    color:#1877b7;
+    text-align: center;
+    margin-right:25px;
+}
+.section6{
+    width:100%;
+    height:230px;
+}
+.section6 ul li{
+    float: left;
+    width:222px;
+    height:142px;
+    padding:10px;
+    border:1px,solid gainsboro;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+.section6 ul li + li{
+    margin-left:57px;
+}
+.section6 ul li a{
+    position: relative;
+    display: inline-block;
+    width:220px;
+    height:140px;
+}
+.section6 ul li a p{
+    position: absolute;
+    width:220px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    bottom: 0;
+    left:0;
+    font-size:14px;
+    color:#fff;
+    background-color:rgba(70, 31, 31, 0.5); 
+}
+.middle_con .section7{
+    width:100%;
+    height:140px;
+}
+.section7{
+    width:100%;
+    height:160px;
+}
+.stage{
+    float: left;
+    position: relative;
+    transform-style:preserve-3d;
+    width:78px;
+    height:30px;
+    margin:10px 21px;
+    transform-origin:0 50% 0;
+    transition:0.3s;
+}
+.stage2,.stage3,.stage4{
+    width:90px;
+}
+.stage5,.stage9{
+    width:120px;
+}
+.stage6{
+    width:136px;
+}
+.stage8,.stage12,.stage13,.stage14{
+    width:106px;
+}
+.stage10{
+    width:240px;
+}
+.stage11{
+    width:180px;
+}
+.stage .face{
+    position: absolute;
+    display: block;
+    color:#d1e9f8;
+    height:30px;
+    line-height: 30px;
+    font-size:14px;
+    font-weight:bold;
+    padding:0 15px;
+    letter-spacing: 1px;
+    background-color: #2195de;
+    box-shadow:0 0 10px #a7a6a6 inset;
+    transition:0.3s;
+}
+.face1{
+    transform:translateZ(30px);
+}
+.stage .face6{
+    transform-origin:bottom;
+    transform:rotateX(-90deg);
+    background-color: #28a2ee;
+}
+.stage:hover{
+    transform:rotateX(90deg) translateZ(-15px);
+}
+
